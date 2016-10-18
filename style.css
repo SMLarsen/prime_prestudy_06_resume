@@ -1,0 +1,143 @@
+body {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+    padding: 5px 25px 5px 25px;
+}
+
+h1 {
+    text-align: center;
+/*    border-bottom: 5px solid lightslategrey;*/
+    padding-top: 10px;
+    padding-bottom: 1px;
+    font-size: 200%;
+    font-weight: bold;
+    color: slategrey;
+}
+
+h2 {
+    text-align: left;
+    background-color: lightslategrey;
+    color: white;
+    padding: 15px 0 5px 40px;
+    font-size: 150%;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 1px;
+    padding-left: 240px;
+    font-size: 150%;
+    font-weight: bold;
+    color: slategrey;
+    background-color: lightgrey;
+}
+
+h4 {
+    font-size: 125%;
+    color: dimgrey;
+}
+
+h5 {
+  font-size: 20px;
+  color: slategrey;
+  text-align: center;
+}
+
+p {
+  margin-top: 5px;
+}
+
+aside {
+  float: left;
+  padding: 0 10px 0 10px;
+  width: 240px;
+  text-align: center;
+}
+
+aside img {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+aside p {
+  text-align: center;
+  color: grey;
+  font-style: italic;
+}
+
+li {
+  list-style: disc outside none;
+  margin-left: 0;
+  padding-left: .5em;
+  margin-top: .3em;
+}
+
+h3.clear {
+  clear: both;
+}
+
+h4.follower {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: lightslategrey;
+  padding-top: 10px;
+}
+
+.job {
+  overflow: auto;
+  padding-left: 15px;
+  border-left: 1px solid lightgrey;
+}
+
+.dates-worked {
+  color: slategrey;
+}
+
+#contact {
+  float: right;
+  background-color: lightgrey;
+  margin-left: 15px;
+  padding-bottom: 25px;
+}
+
+#contact p {
+  text-align: left;
+  color: black;
+  font-style: normal;
+  margin: 0, 15px, 0, 15px;
+}
+
+#education article {
+  column-count:2;
+}
+
+#education img {
+  display: block;
+    margin: auto;
+    width: auto;
+}
+
+#education p {
+  text-align: center;
+}
+
+#education.follower {
+  break-before: column;
+}
+
+#other img {
+  display: block;
+    margin-top: 35px;
+    width: auto;
+    height: 50%;
+}
+
+#skills {
+  column-count: 2;
+  column-gap: 40px;
+  margin-left: 40px;
+}
