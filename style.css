@@ -1,38 +1,60 @@
 body {
-    font-family: Lato, Arial, sans-serif;
-    font-size: 16px;
+    font-family: Cabin Arial, sans-serif;
+    font-size: 1.15em;
     line-height: 1.35;
     padding: 5px 25px 5px 25px;
 }
 
-h1 {
+main {
+  float: left;
+  display: block;
+  break-before: left;
+}
+
+nav {
+  display: inline-block;
+  width: 80%;
+  margin: 10% 10% 8% 10%;
+  padding: 25px;
+  background-color: #E1DFD2;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+main h1 {
     text-align: center;
-/*    border-bottom: 5px solid lightslategrey;*/
     padding-top: 10px;
     padding-bottom: 1px;
     font-size: 200%;
     font-weight: bold;
-    color: slategrey;
 }
 
-h2 {
+nav h1 {
+  margin: 10px;
+}
+
+main h2 {
     text-align: left;
-    background-color: lightslategrey;
+    background-color: #1B5790;
     color: white;
     padding: 15px 0 5px 40px;
     font-size: 150%;
     font-weight: bold;
     font-variant: small-caps;
+    border-radius: 25px 0 0 25px;
 }
 
 h3 {
     padding-top: 15px;
-    padding-bottom: 1px;
-    padding-left: 240px;
+    padding-bottom: 3px;
+    padding-left: 140px;
     font-size: 150%;
     font-weight: bold;
-    color: slategrey;
-    background-color: lightgrey;
+    color: white;
+    background-color: #90B557;
+    border-radius: 25px 0 0 25px;
 }
 
 h4 {
@@ -83,7 +105,7 @@ h3.clear {
 h4.follower {
   border-top-style: solid;
   border-width: 1px;
-  border-color: lightslategrey;
+  border-color: #E1DFD2;
   padding-top: 10px;
 }
 
@@ -140,4 +162,110 @@ h4.follower {
   column-count: 2;
   column-gap: 40px;
   margin-left: 40px;
+}
+
+#skills li:first-letter {
+  color: darkblue;
+}
+
+.org {
+  display: inline-block;;
+  background: white;
+  float: left;
+  padding: 20px;
+  border: 1px solid #1B5790;
+  margin: 7px 25px;
+  height: 80px;
+  width: 40%;
+  box-shadow: 7px 7px 3px #a2a197;
+  font-family: sans-serif;
+  text-align: center;
+  color: #1B5790;
+  opacity: .65;
+}
+
+.org:hover {
+  opacity: 1;
+}
+
+.clicked {
+  position: relative;
+  left: 2px;
+  top: 2px;
+  opacity: 1;
+}
+
+.org img {
+  display:inline-block;
+  float: left;
+  padding: 5px;
+  max-height: 80px;
+  max-width: 150px;
+}
+
+.photo img {
+  margin-left: 40px;
+}
+
+
+.author {
+  font-style: italic;
+  text-align: right;
+}
+
+#splash {
+  display: inline-block;
+  width: 80%;
+  margin: 7% 12% 0 12%;
+}
+
+#name {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  padding: 25px;
+  border-right: 7px solid #1B5790;
+  font-size: 2.5em;
+}
+
+.quote {
+  display: inline-block;
+  font-size: 1.3em;
+  padding: 10px 15px 10px 15px;
+  margin: 1% 0 0 5%;
+  width: 40%;
+  background-color: #d1deea;
+  border-radius: 25px;
+}
+
+#albert {
+  background-color: #90B557;
+}
+
+#branch {
+  margin: -2% 0 0 20%;
+  background-color: #E1DFD2;
+}
+
+#letsGo {
+  display: inline-block;
+  margin: 4% 15% 0 12%;
+  width: 70%;
+  border-radius: 15px;
+  border: 0;
+  box-shadow: 10px 10px 5px #E1DFD2;
+  padding: 15px;
+  font-size: 2em;
+  background-color: #83acd6;
+}
+
+#letsGo:hover {
+  box-shadow: 10px 10px 5px #a9a79c;
+  background-color: #6d8fb3;
+}
+
+
+#letsGo:clicked {
+  box-shadow: 10px 10px 5px #a9a79c;
+  background-color: #6d8fb3;
 }

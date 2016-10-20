@@ -4,17 +4,67 @@
     <title>Steve Larsen Resume Page</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.1.1.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
 <header>
-  <h1>Steven M. Larsen</h1>
-
-  <nav>
-  </nav>
+  <section id="splash">
+    <div id="name">
+        <h1>Steve<br>Larsen</h1>
+    </div>
+    <div class="quote" id="albert">
+      <p>"Things should be made as simple as possible, and no simpler"</p>
+      <p class="author">- Albert Einstein</p>
+    </div>
+    <div class="quote" id="branch">
+      <p>"Luck is the residue of good design"</p>
+      <p class="author">- Branch Rickey</p>
+    </div>
+  </section>
+  <button type="button" id="letsGo">Who Is Steve Larsen?</button>
 </header>
 
-<main>
+<nav class="hide">
+  <h1 id="steveRoles">Steve Larsen</h1>
+  <div class="org photo" id="bloggerB">
+    <img src="images/DSC09228.jpg" alt="Steve Larsen travel blogger">
+    <p class="role">Travel Blogging<br>Photography</p>
+  </div>
+  <div class="org" id="ampfB">
+      <img src="images/AMPF.jpg" alt="Ameriprise Financial logo">
+      <p class="role">Enterprise Project<br>Management Office</p>
+  </div>
+  <div class="org" id="znthB">
+    <img src="images/Zenith.jpg" alt="Zenith Insurance logo">
+    <p class="role">Executive Leadership<br>Organizational Change<br>Architecture</p>
+  </div>
+  <div class="org photo" id="csciB">
+    <img src="images/Cambridge Street2.jpg" alt="Cambridge Street Consulting photo">
+    <p class="role">Consulting</p>
+  </div>
+  <div class="org" id="uhgB">
+    <img src="images/unitedhealth-logo_0.jpg" alt="Unitedhealth Group logo">
+    <p class="role">Application Development<br>Architecture</p>
+  </div>
+  <div class="org" id="bcbsmB">
+    <img src="images/BCBSM.jpg" alt="Blue Cross Blue Shield logo">
+    <p class="role">Advanced Technology</p>
+  </div>
+  <div class="org" id="otherB">
+    <img src="images/Norwest_logo.jpg" alt="Norwest logo">
+    <img src="images/BN.jpg" alt="Burlington Northern logo">
+    <p class="role">Programming<br>Analysis<br>Database<br>Data Architecture</p>
+  </div>
+  <div class="org" id="eduB">
+    <img src="images/carlson-2.jpg" alt="Carlson School of Business">
+    <img src="images/Mac-2.jpg" height="108px" alt="Macalester College">
+    <p class="role">Education</p>
+  </div>
+</nav>
+
+<main class="hide">
   <section id="summary">
     <article>
       <h2>Summary</h2>
