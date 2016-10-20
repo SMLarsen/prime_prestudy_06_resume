@@ -6,6 +6,11 @@ $(document).ready(function() {
     $("nav").removeClass("hide");
     $("body").animate({ scrollTop: $('#steveRoles').offset().top - 50 }, 2000);
   });
+  $('#contactB').on('click', function() {
+    $("nav").removeClass("hide");
+    $("main").removeClass("hide");
+    $("body").animate({ scrollTop: $('#contact').offset().top - 50 }, 1000);
+  });
   $('#bloggerB').on('click', function() {
     $("main").removeClass("hide");
     $("body").animate({ scrollTop: $('#blogger').offset().top - 100 }, 1000);

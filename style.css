@@ -1,14 +1,7 @@
 body {
     font-family: Cabin Arial, sans-serif;
-    font-size: 1.15em;
     line-height: 1.35;
     padding: 5px 25px 5px 25px;
-}
-
-main {
-  float: left;
-  display: block;
-  break-before: left;
 }
 
 nav {
@@ -17,10 +10,6 @@ nav {
   margin: 10% 10% 8% 10%;
   padding: 25px;
   background-color: #E1DFD2;
-}
-
-.hide {
-  visibility: hidden;
 }
 
 main h1 {
@@ -47,24 +36,23 @@ main h2 {
 }
 
 h3 {
-    padding-top: 15px;
-    padding-bottom: 3px;
-    padding-left: 140px;
+    padding: 15px 0 3px 140px;
     font-size: 150%;
     font-weight: bold;
     color: white;
+    font-variant: small-caps;
     background-color: #90B557;
     border-radius: 25px 0 0 25px;
 }
 
 h4 {
     font-size: 125%;
-    color: dimgrey;
+    color: #1B5790;
 }
 
 h5 {
   font-size: 20px;
-  color: slategrey;
+  color: #1B5790;
   text-align: center;
 }
 
@@ -80,7 +68,6 @@ aside {
 }
 
 aside img {
-  display: block;
   margin: auto;
   width: 80%;
 }
@@ -98,15 +85,15 @@ li {
   margin-top: .3em;
 }
 
-h3.clear {
-  clear: both;
-}
-
 h4.follower {
   border-top-style: solid;
   border-width: 1px;
   border-color: #E1DFD2;
   padding-top: 10px;
+}
+
+.hide {
+  visibility: hidden;
 }
 
 .job {
@@ -116,21 +103,7 @@ h4.follower {
 }
 
 .dates-worked {
-  color: slategrey;
-}
-
-#contact {
-  float: right;
-  background-color: lightgrey;
-  margin-left: 15px;
-  padding-bottom: 25px;
-}
-
-#contact p {
-  text-align: left;
-  color: black;
-  font-style: normal;
-  margin: 0, 15px, 0, 15px;
+  color: grey;
 }
 
 #education article {
@@ -168,15 +141,18 @@ h4.follower {
   color: darkblue;
 }
 
+#skills li:nth-child(even) {
+  background-color: #E1DFD2;
+}
+
 .org {
   display: inline-block;;
   background: white;
   float: left;
   padding: 20px;
-  border: 1px solid #1B5790;
   margin: 7px 25px;
   height: 80px;
-  width: 40%;
+  width: 38%;
   box-shadow: 7px 7px 3px #a2a197;
   font-family: sans-serif;
   text-align: center;
@@ -207,16 +183,10 @@ h4.follower {
   margin-left: 40px;
 }
 
-
-.author {
-  font-style: italic;
-  text-align: right;
-}
-
 #splash {
   display: inline-block;
   width: 80%;
-  margin: 7% 12% 0 12%;
+  margin: 5% 12% 0 12%;
 }
 
 #name {
@@ -231,11 +201,20 @@ h4.follower {
 .quote {
   display: inline-block;
   font-size: 1.3em;
-  padding: 10px 15px 10px 15px;
-  margin: 1% 0 0 5%;
+  font-family: fantasy;
+  padding: 35px 25px 10px 25px;
+  margin: 2% 0 0 7%;
   width: 40%;
   background-color: #d1deea;
   border-radius: 25px;
+}
+
+.author {
+  padding: 0;
+  font-style: italic;
+  font-size: .9em;
+  text-align: right;
+  font-family: sans-serif;
 }
 
 #albert {
@@ -264,8 +243,70 @@ h4.follower {
   background-color: #6d8fb3;
 }
 
+#contactB {
+  display: inline-block;
+  margin: 2% 15% 0 65%;
+  width: 20%;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: 10px 10px 5px #E1DFD2;
+  padding: 7px;
+  font-size: 1.25em;
+  background-color: #90B557;
+}
 
-#letsGo:clicked {
+#contactB:hover {
   box-shadow: 10px 10px 5px #a9a79c;
-  background-color: #6d8fb3;
+  background-color: #749443;
+}
+
+#contBox {
+  border-radius: 25px 0 0 25px;
+  border: 0;
+  padding: 35px;
+  height: 65px;
+  background-color: #E1DFD2;
+}
+
+.contactItem {
+  float: left;
+  display: inline-block;
+  width: 25%;
+  height: 20px
+  padding: 20px;
+  margin: 7px 25px;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.spriteBox {
+  background-image: url(Images/CommonIcons.jpg);
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin: 5px 10px 0 0;
+}
+
+#ci1 {
+  background-position: 0 0;
+}
+
+#ci2 {
+  background-position: 50px 0;
+}
+
+#ci3 {
+  background-position: 100px 0;
+}
+
+#ci1:hover {
+  background-position: 0 50px;
+}
+
+#ci2:hover {
+  background-position: 50px 50px;
+}
+
+#ci3:hover {
+  background-position: 100px 50px;
 }
