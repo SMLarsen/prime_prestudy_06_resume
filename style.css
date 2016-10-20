@@ -310,3 +310,31 @@ h4.follower {
 #ci3:hover {
   background-position: 100px 50px;
 }
+
+.back {
+  float: right;
+  margin: -4px 15px 25px 0;
+  font-size: .65em;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  padding: 3px;
+  border: 2px solid #E1DFD2;
+  color: #E1DFD2;
+}
+
+main h2 .back {
+  background-color: #1B5790;
+}
+
+main h3 .back {
+  background-color: #90B557;
+}
+
+main h2 .back:hover {
+  background-color: #83acd6;
+  margin-top: -2px;
+}
+main h3 .back:hover {
+  background-color: #749443;
+  margin-top: -2px;
+}
