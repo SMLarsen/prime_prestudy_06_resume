@@ -64,6 +64,7 @@ body {
 #letsGo:hover {
   box-shadow: 10px 10px 5px #a9a79c;
   background-color: #6d8fb3;
+  cursor: pointer;
 }
 
 #contactB {
@@ -81,6 +82,7 @@ body {
 #contactB:hover {
   box-shadow: 10px 10px 5px #a9a79c;
   background-color: #749443;
+  cursor: pointer;
 }
 
 /* navigation styling                             */
@@ -113,6 +115,7 @@ nav h1 {
 
 .org:hover {
   opacity: 1;
+  cursor: pointer;
 }
 
 .clicked {
@@ -271,6 +274,10 @@ li {
   margin-left: 0;
   padding-left: .5em;
   margin-top: .3em;
+}
+
+.job li:hover {
+  background-color: #E1DFD2;
 }
 
 h4.follower {
